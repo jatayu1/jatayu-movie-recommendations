@@ -80,7 +80,7 @@ The application will open in your default web browser.
 - A Pandas DataFrame containing movie metadata and processed features  
 - Used to map movie indices to titles and display information  
 
-### similarity_top10.pkl
+### similarity.pkl
 - A dictionary storing the Top-10 most similar movies per movie  
 - Format:
   {
@@ -133,7 +133,7 @@ Posters or metadata not loading:
 - Some titles may not exist in OMDb  
 
 Application fails to start:
-- Ensure `movies.pkl` and `similarity_top10.pkl` are present  
+- Ensure `movies.pkl` and `similarity.pkl` are present  
 - Confirm Python version is 3.8 or higher  
 
 ---

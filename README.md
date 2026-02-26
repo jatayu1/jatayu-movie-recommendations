@@ -36,22 +36,26 @@ Metadata enrichment is handled using the OMDb API with fallback logic to improve
 ### 1. Clone the Repository
 ```
 git clone https://github.com/jatayu1/jatayu-movie-recommendations.git
+```
+```
 cd jatayu-movie-recommendations
 ```
 ### 2. Create and Activate a Virtual Environment
-
+```
 python -m venv venv
-
+```
 Windows:
+```
 venv\\Scripts\\activate
-
+```
 macOS / Linux:
+```
 source venv/bin/activate
-
+```
 ### 3. Install Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 ### 4. Configure OMDb API Key
 
 Create a `.env` file in the root directory:
@@ -63,9 +67,9 @@ You can obtain a free API key from: https://www.omdbapi.com/
 Make sure the `.env` file is excluded from version control.
 
 ### 5. Run the Application
-
+```
 streamlit run app.py
-
+```
 The application will open in your default web browser.
 
 ---

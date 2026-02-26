@@ -34,10 +34,10 @@ Metadata enrichment is handled using the OMDb API with fallback logic to improve
 ## Installation and Setup
 
 ### 1. Clone the Repository
-
+```
 git clone https://github.com/jatayu1/jatayu-movie-recommendations.git
 cd jatayu-movie-recommendations
-
+```
 ### 2. Create and Activate a Virtual Environment
 
 python -m venv venv

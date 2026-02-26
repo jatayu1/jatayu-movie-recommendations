@@ -31,22 +31,6 @@ Metadata enrichment is handled using the OMDb API with fallback logic to improve
 
 ---
 
-## Project Structure
-
-jatayu-movie-recommendations/
-│
-├── app.py
-├── movie_recommender_system.py
-│
-├── movies.pkl
-├── similarity_top10.pkl
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
----
-
 ## Installation and Setup
 
 ### 1. Clone the Repository
